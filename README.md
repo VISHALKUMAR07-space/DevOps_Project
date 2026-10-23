@@ -6,7 +6,7 @@ Cloud-Based Linux Server Deployment with GitHub Version Control and Automation
 
 ## Student Name
 
-NITIN MISHRA
+VISHAL KUMAR
 
 ## Batch Code
 
@@ -49,17 +49,23 @@ The log-report.txt file documents failed login attempts, SSH activity, system er
 ## Folder Structure
 
 text
-DevOps-Fundamentals-Project/
-├── README.md
-├── index.html
-├── health-check.sh
-├── apache-monitor.sh
-├── backup.sh
-├── log-report.txt
-├── Backup/
-├── documentation/
-├── screenshots/
-└── scripts/
+
+Directory structure:
+└── vishalkumar07-space-devops_project/
+    ├── README.md
+    ├── apache-monitor.sh
+    ├── backup.sh
+    ├── health-check.sh
+    ├── index.html
+    ├── log-report.txt
+    ├── Backup/
+    │   ├── index.html
+    │   └── website-backup-2026-10-21_17-14-59.tar.gz
+    ├── docs/
+    │   └── project-overview.md
+    └── scripts/
+        ├── deploy.sh
+        └── health-check.sh
 
 
 ## Website Deployment
@@ -68,7 +74,7 @@ The project website is deployed using Apache on an AWS Ubuntu EC2 instance.
 
 *Project Message:* Hosted on AWS Ubuntu Server.
 
-## Learning Outcomes
+## LearningOutcomes
 
 * Learned basic AWS EC2 and Linux server configuration.
 * Practiced installing and managing Apache.
